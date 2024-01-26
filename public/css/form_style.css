@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    text-decoration: none;
+ }
+
+ /*login page*/
+ .login_btn{
+    width: 100%;
+    border: 1px solid #FF5404;
+    border-radius: 30px;
+    padding:10px 30px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 25px;
+    background-color: #FF5404;
+    color: #FEFEFE;
+    transition: 0.5s;
+ }
+
+ .login_btn:hover{
+    background-color: #FEFEFE;
+    color: #FF5404;
+    border: 1px solid #FF5404;
+ }
+
+ .form-container{
+    text-align: center;
+    align-items: center;
+    padding:20px;
+    width:100%;
+    background-image: url('../images/body.jpg');    
+    z-index: -99;
+    
+ }
+ .form-container form .logo_main{
+   width: 150px;
+   
+ }
+ 
+ .form-container form{
+    padding: 20px 20px;
+    text-align: center;
+    width: 45%;
+    margin: 50px auto;
+    background-color: #fefefe86;
+    display: block;
+ }
+ 
+.form-container form h3{
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #e74c3c;
+    text-transform: uppercase;
+ }
+ 
+ .form-container form .box{
+    width: 100%;
+    border-radius: 30px;
+    padding:12px 30px;
+    font-size: 18px;
+    color: black;
+    margin:10px auto;
+    background-color: #ffffff;
+    outline: none; 
+    border: 1px solid #949393;
+ }
+ 
+ .form-container form p{
+    margin-top: 15px;
+    font-size: 17px;
+    color: black;
+ }
+ 
+ .form-container form p a{
+    color:#e74c3c;
+ }
+
+ .form-container form p a:hover{
+    text-decoration: underline;
+ }
+ .form-container form .inputBox{
+   margin: 0 auto;
+   text-align: left;
+ }
+ .form-container form .flex{
+   width: 80%;
+   margin: 0 auto;
+ }
+ .form-container form .continue-google{
+  display: block;
+  cursor: pointer;
+ }
+ .form-container form .continue-google img{
+  width: 80%;
+}
+.form-container form .hr{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.form-container form .hr hr{
+  width: 40%;
+  height: 0;
+  color: #949393;
+}
+.form-container form .hr p{
+  margin: 0 auto;
+  color: #949393;
+}
+
+
+
+
+ .contact-form-container{
+   background: #fff;
+   width: 80%;
+   padding: 25px 40px 10px 40px;
+   margin: 0px auto;
+   
+ }
+ .contact-form-container form{
+   padding: 30px 0 0 0;
+ }
+ .contact-form-container form .form-row{
+   display: flex;
+   margin: 32px 0;
+ }
+ .contact-form-container form .box, textarea{
+    border-radius: 5px;
+    padding:12px 14px;
+    font-size: 18px;
+    color: black;
+    margin:10px auto;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    outline: none; 
+    border: none;
+ }
+ form .form-row .input-data{
+   width: 100%;
+   height: 50px;
+   margin: 0 20px;
+   position: relative;
+ }
+ form .form-row .textarea{
+   height: 150px;
+ }
+ .input-data input,
+ .textarea textarea{
+   display: block;
+   width: 100%;
+   height: 100%;
+   border: none;
+   font-size: 17px;
+ }
+ .textarea textarea{
+   resize: none;
+   padding-top: 10px;
+ }
+ .send-btn .input-data input{
+   color: #fff;
+   width: 25%;
+   background: #FF5404;
+   transition: all 0.4s;
+   margin-bottom: 50px;
+  cursor: pointer;
+  border: none;
+ }
+ .send-btn:hover{
+  transform: translateX(2%);
+  transition: 1s;
+ }
+
+ 
+
+ @media screen and (max-width:1279px){
+  .form-container form{
+    width: 80%;
+    margin: 10px auto;
+  }
+  #footer{
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width:919px){
+  .form-container form{
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+
+@media screen and (max-width:600px){
+.form-container{
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+}
+.form-container form{
+  width: 100%;
+  margin: 10px 0;
+}
+.form-container form .inputBox .box{
+  padding: 6px 10px;
+}
+.form-container form .inputBox .login_btn{
+  font-size: 16px;
+}
+
+}
+
+
